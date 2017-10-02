@@ -1,0 +1,9 @@
+.app {
+    position: relative;
+    min-height: 100vh;
+}
+
+.editor-group {
+    display: flex;
+    min-height: calc(100vh - 5rem);
+}

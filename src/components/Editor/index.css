@@ -1,0 +1,13 @@
+.editor {
+    width: 50%;
+}
+
+.editor textarea {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    outline: none;
+    padding: 2rem;
+    line-height: 1 !important;
+    font-size: 1.4rem !important;
+}
