@@ -1,12 +1,16 @@
 import React from "react";
 import "./index.css";
 
-const Editor = () => {
+const Editor = ({ onInputChange, value }) => {
     return (
         <div className="editor">
-            <textarea />
+            <textarea
+                autoFocus={false}
+                onChange={(e) => onInputChange(e)}
+                value={value}
+            />
         </div>
-    )
+    );
 }
 
 export default Editor;
