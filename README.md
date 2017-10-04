@@ -53,9 +53,9 @@ React에서 UI구조과 데이터 flow의 기본 단위는 컴포넌트입니다
 
 ```
 import React, { Component } from "react";
-import Header from "./components/Header";
-import Editor from "./components/Editor";
-import Preview from "./components/Preview";
+import Header from "./Header";
+import Editor from "./Editor";
+import Preview from "./Preview";
 
 // 마크다운 에디터를 품고있는 main 컴포넌트
 class App extends Component {
