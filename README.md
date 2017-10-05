@@ -1,5 +1,42 @@
 # 리액트로 만드는 초간단 마크다운 에디터!
 
+## 환경 설정
+
+1. yarn 설치(https://yarnpkg.com/lang/en/docs/install/)
+```
+brew install yarn
+```
+
+2. editor config
+
+- Sublime editor
+    - https://github.com/babel/babel-sublime
+- Atom
+    - https://atom.io/packages/react
+
+
+## 앱 실행
+1. 프로젝트를 클론합니다.
+
+```
+git clone https://github.com/alexKwonIsAwesome/markdown-react
+```
+
+2. 패키지 설치
+```
+yarn install
+```
+
+3. 실행
+```
+yarn start
+```
+
+## 앱 실습
+```
+git checkout starter
+```
+`starter`브랜치에서 코드를 작성하기 시작하며 실습을 하시면 됩니다. 기본적인 디렉토리 구조와 스타일링이 미리 작성되어있습니다.
 ## 앱의 구성
 
 React에서 UI구조과 데이터 flow의 기본 단위는 컴포넌트입니다. 하나의 페이지를 구성하는데에는 의미적으로 구분할 수 있습니다.
